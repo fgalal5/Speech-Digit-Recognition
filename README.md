@@ -2,7 +2,7 @@
 
 This project trains a spoken digit recognition model in **Google Colab** using a **feature-fusion pipeline** and a **bidirectional LSTM classifier**.
 
-The notebook loads audio files from **Google Drive**, extracts two complementary feature streams:
+The notebook loads audio files from **Google Drive** (audio recordings too large to upload, if interested in reproducing our results please contact me for our google drive that includes the data folder), extracts two complementary feature streams:
 
 - **PCEN + delta + delta-delta**
 - **MFCC + delta + delta-delta**
